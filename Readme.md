@@ -24,6 +24,13 @@ We report **TPR @ 0.01 FPR**.
 - `models/` — contains three model directories: `train`, `val`, `final`. Use the `train` model for experiments, then predict membership for `val` and `final`.
 - `MIA_phase2_3.ipynb` — starter kit for phase 2 and phase 3. Both phases use the same model but have different performance requirements.
 
+## Result submission
+participate by your andrew email and submit the zip file (as specificied by notebook) to val phase. The leaderboard is based on codabench, link: https://www.codabench.org/competitions/11238/
+
+Please submit by groups after forming an organization (clike your name on the top right and create an organization).
+
+Please use andrew email to register only. If you have any questions, email me or post a discussion on canvas.
+
 ## Report
 stay tuned for the report format
 
