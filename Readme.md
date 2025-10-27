@@ -20,6 +20,7 @@ We report **TPR @ 0.01 FPR**.
   - `prepare_data.py` — script used to collect and inspect the training data. Use it to understand the data and to prepare data for shadow models.
 - `ft_llm/`
   - `ft_llm.py` — script for fine-tuning a shadow model.
+  - `ft_llm_colab.py` — script for fine-tuning a shadow model on colab T4 GPU (T4 does not natively support bf16).
   - `ft_llm.sh` — bash script with our finetuning configuration.
 - `models/` — contains three model directories: `train`, `val`, `final`. Use the `train` model for experiments, then predict membership for `val` and `final`.
 - `MIA_phase2_3.ipynb` — starter kit for phase 2 and phase 3. Both phases use the same model but have different performance requirements.
